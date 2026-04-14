@@ -3,7 +3,7 @@
 @section('title', 'Pinnacle')
 
 @push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/bootstrap.min.css') }}">
 @endpush
 
 @section('content')
@@ -426,7 +426,7 @@
 
 @push('scripts')
     {{--<script src="https://jsdelivr.net"></script>--}}
-    <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
     <script>
         // Initialize or customize your carousel here
