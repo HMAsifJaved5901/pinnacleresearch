@@ -105,13 +105,5 @@
 @endsection
 
 @push('scripts')
-    <script src="https://jsdelivr.net"></script>
-    <script>
-        // Initialize or customize your carousel here
-        const myCarousel = document.querySelector('#homeCarousel');
-        const carousel = new bootstrap.Carousel(myCarousel, {
-            interval: 2000,
-            wrap: true
-        })
-    </script>
+
 @endpush
